@@ -165,8 +165,8 @@ CREATE TABLE IF NOT EXISTS `participent` (
 --
 
 INSERT INTO `participent` (`S.No`, `usn`, `name`, `branch`, `sem`, `email`, `phone`, `college`, `rid`, `event_id`) VALUES
-(12, '21UCA45', 'Afzal K S L', 'BCA', 6, '21uca45@lcv.edu.in', '9655529733', 'LCV', 1, 5),
-(14, '21UCA35', 'Pandian S', 'BCA', 6, '21uca35@lcv.edu.in', '7708672379', 'LCV', 2, 6);
+(12, '45', 'Afzal K S L', 'BCA', 6, '45@lcv.edu.in', '9633', 'LCV', 1, 5),
+(14, '35', 'Pandian S', 'BCA', 6, '35@lcv.edu.in', '7779', 'LCV', 2, 6);
 
 -- --------------------------------------------------------
 
@@ -188,8 +188,8 @@ CREATE TABLE IF NOT EXISTS `registered` (
 --
 
 INSERT INTO `registered` (`S.No`, `rid`, `usn`, `event_id`) VALUES
-(9, 1, '21UCA45', 5),
-(11, 2, '21UCA35', 6);
+(9, 1, '45', 5),
+(11, 2, '35', 6);
 
 -- --------------------------------------------------------
 
@@ -211,20 +211,20 @@ CREATE TABLE IF NOT EXISTS `staff_coordinator` (
 --
 
 INSERT INTO `staff_coordinator` (`stid`, `name`, `phone`, `event_id`) VALUES
-(1, 'Dharmaraj', '9655153675', 1),
-(2, 'Catherine Loura', '7502228413', 2),
-(3, 'Jayabaskaran', '9894388844', 3),
+(1, 'Dharmaraj', '9675', 1),
+(2, 'Catherine Loura', '7513', 2),
+(3, 'Jayabaskaran', '9844', 3),
 (4, 'Kalaiyarasi', NULL, 4),
-(5, 'Dharmaraj', '9655153675', 5),
-(6, 'Catherine Loura', '7502228413', 6),
-(7, 'Jayabaskaran', '9894388844', 7),
+(5, 'Dharmaraj', '9675', 5),
+(6, 'Catherine Loura', '7513', 6),
+(7, 'Jayabaskaran', '9844', 7),
 (8, 'Kalaiyarasi', NULL, 8),
-(9, 'Dharmaraj', '9655153675', 9),
-(10, 'Catherine Loura', '7502228413', 10),
-(11, 'Jayabaskaran', '9894388844', 11),
+(9, 'Dharmaraj', '9675', 9),
+(10, 'Catherine Loura', '7513', 10),
+(11, 'Jayabaskaran', '9844', 11),
 (12, 'Kalaiyarasi', NULL, 12),
-(13, 'Dharmaraj', '9655153675', 13),
-(14, 'Catherine Loura', '7502228413', 14);
+(13, 'Dharmaraj', '9675', 13),
+(14, 'Catherine Loura', '7513', 14);
 
 -- --------------------------------------------------------
 
@@ -246,20 +246,20 @@ CREATE TABLE IF NOT EXISTS `student_coordinator` (
 --
 
 INSERT INTO `student_coordinator` (`sid`, `st_name`, `phone`, `event_id`) VALUES
-(1, 'Dharma Stephen', '7695041116', 1),
-(2, 'Inbanesan', '9789271260', 2),
-(3, 'Ragul', '9384756754', 3),
-(4, 'Pandian', '7708672379', 4),
-(5, 'Mukesh', '8072255359', 5),
-(6, 'Murali', '8667027370', 6),
-(7, 'Joseph Thomas', '6382528598', 7),
-(8, 'Suriya Prakash', '9361394809', 8),
-(9, 'Mugilan', '8015231132', 9),
-(10, 'Edison', '9384415688', 10),
-(11, 'Vicky', '9384496450', 11),
-(12, 'Alwin Mano', '9489126896', 12),
-(13, 'Tamilnithi', '8531933054', 13),
-(14, 'Punith', '8124264190', 14);
+(1, 'Dharma Stephen', '7616', 1),
+(2, 'Inbanesan', '9760', 2),
+(3, 'Ragul', '9354', 3),
+(4, 'Pandian', '7779', 4),
+(5, 'Mukesh', '8059', 5),
+(6, 'Murali', '8670', 6),
+(7, 'Joseph Thomas', '6398', 7),
+(8, 'Suriya Prakash', '9309', 8),
+(9, 'Mugilan', '8032', 9),
+(10, 'Edison', '9388', 10),
+(11, 'Vicky', '9350', 11),
+(12, 'Alwin Mano', '9496', 12),
+(13, 'Tamilnithi', '8554', 13),
+(14, 'Punith', '8190', 14);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
